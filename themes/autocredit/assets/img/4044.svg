@@ -1,0 +1,39 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 621 564">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eef0fe;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #d3d9fd;
+      }
+
+      .cls-4 {
+        fill-opacity: 0;
+        stroke: #eef0fe;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <title>Монтажная область 2</title>
+  <g>
+    <g>
+      <path id="_9fi2a" data-name="9fi2a" class="cls-1" d="M0,567V0H621V567Z"/>
+      <path id="_9fi2b" data-name="9fi2b" class="cls-2" d="M483-6.53,628,133V-7Z"/>
+      <path id="_9fi2c" data-name="9fi2c" class="cls-3" d="M620.88,127.23,490.25.35V127.65Z"/>
+    </g>
+    <g>
+      <path id="_9fi2d" data-name="9fi2d" class="cls-3" d="M311,380A128,128,0,1,1,183,508,128,128,0,0,1,311,380Z"/>
+      <path id="_9fi2e" data-name="9fi2e" class="cls-4" d="M253,520.38s56.14-41.38,124,0"/>
+      <path id="_9fi2f" data-name="9fi2f" class="cls-1" d="M359,468a4,4,0,1,1-4,4A4,4,0,0,1,359,468Z"/>
+      <path id="_9fi2g" data-name="9fi2g" class="cls-1" d="M272,468a4,4,0,1,1-4,4A4,4,0,0,1,272,468Z"/>
+    </g>
+  </g>
+</svg>

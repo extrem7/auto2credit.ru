@@ -1,0 +1,265 @@
+.link-img {
+  display: block;
+  position: absolute;
+  bottom: 154px;
+  right: 113px;
+  cursor: pointer;
+  width: 519px;
+  height: 110px;
+}
+.multiplication {
+  position: relative;
+  text-align: center;
+  .mob {
+    display: none;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  &.mult-1 {
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      height: 90%;
+      width: 100%;
+      background-color: #fff;
+    }
+    img {
+      position: relative;
+      z-index: 10;
+    }
+  }
+  &.mult-2 {
+    img {
+
+    }
+  }
+  &.mult-3 {
+    margin-bottom: 2rem;
+    .button {
+      font-size: 0.875rem;
+      max-width: 294px;
+      width: 100%;
+      padding: 1rem 0.75rem;
+      margin-left: 95px;
+      position: absolute;
+      bottom: 60px;
+    }
+  }
+  &.mult-4 {
+
+  }
+  &.mult-5 {
+    margin-bottom: 5rem;
+    .button {
+      max-width: 511px;
+    }
+  }
+  &.mult-6 {
+    background-color: #fff;
+  }
+}
+.home-page {
+  .btn-sale {
+    position: relative;
+    margin-top: 5rem;
+    &:after {
+      content: '';
+      width: 73px;
+      height: 73px;
+      right: 3px;
+      top: -34px;
+      transform: rotate(32deg);
+      position: absolute;
+      background-image: url("../img/sale.svg");
+      background-size: contain;
+    }
+  }
+  .banner-block {
+    max-width: 510px;
+    margin-top: rem(60px);
+  }
+  .more-detail {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #354082;
+    cursor: pointer;
+  }
+  .main-top {
+    max-width: 513px;
+    max-height: 476px;
+    width: 100%;
+    height: 100%;
+  }
+  .title-italic {
+    color: #354082;
+    font-size: 0.928rem;
+    font-weight: 300;
+    font-style: italic;
+  }
+  .title {
+    font-size: 71px;
+    text-transform: none;
+    font-weight: 600;
+  }
+  .sub-title {
+    font-weight: 500;
+    font-size: 1.625rem;
+    text-transform: none;
+    margin: 8px 0;
+  }
+  .title-second {
+    font-size: 1.563rem;
+    color: #3549c2;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1.2;
+  }
+}
+@media (max-width: 1200px) {
+  .home-page .title {
+    font-size: 60px;
+  }
+  .home-page .sub-title {
+    font-size: 1rem;
+  }
+  .home-page .title-second {
+    font-size: 1rem;
+  }
+  .home-page .btn-sale {
+    margin-top: 3rem;
+  }
+  .home-page .title-italic {
+    font-size: 13px;
+  }
+  .home-page .btn-sale:after {
+    content: '';
+    width: 56px;
+    height: 56px;
+    right: -1px;
+    top: -25px;
+  }
+  .multiplication {
+    &.mult-3 {
+      .button {
+        margin-left: 42px;
+        bottom: 46px;
+      }
+    }
+  }
+}
+@media (max-width: 1300px) {
+  display: block;
+  position: absolute;
+  bottom: 136px;
+  right: 100px;
+  cursor: pointer;
+  opacity: 0.4;
+  width: 472px;
+  height: 103px;
+}
+@media (max-width: 1200px) {
+  .link-img {
+    display: block;
+    position: absolute;
+    bottom: 114px;
+    right: 84px;
+    cursor: pointer;
+    opacity: 0.4;
+    width: 388px;
+    height: 83px;
+  }
+}
+@media (max-width: 992px) {
+  .link-img {
+    display: block;
+    position: absolute;
+    bottom: 87px;
+    right: 64px;
+    cursor: pointer;
+    opacity: 0.4;
+    width: 299px;
+    height: 66px;
+  }
+  .home-page .banner-block {
+    margin: 0 auto;
+  }
+  .home-page .main-top {
+    display: block;
+    margin: 2rem auto;
+  }
+  .multiplication.mult-3 .button {
+    margin-left: 0px;
+    bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .link-img {
+    display: block;
+    position: absolute;
+    bottom: 457px;
+    right: 35px;
+    cursor: pointer;
+    width: 441px;
+    height: 180px;
+  }
+  .home-page .title {
+    font-size: 35px;
+  }
+  .home-page .more-detail {
+    display: none;
+  }
+  .multiplication {
+    &.mult-1 {
+      padding: 0;
+      &:before {
+        display: none;
+      }
+    }
+    .pc {
+      display: none;
+    }
+    .mob {
+      display: block;
+    }
+  }
+  .multiplication.mult-5 .button {
+    margin-top: 0;
+  }
+  .home-page .main-top {
+    display: none;
+  }
+  .home-page .btn-sale {
+    margin-top: 1rem;
+  }
+  .home-page .btn-sale:after {
+    display: none;
+  }
+  .multiplication.mult-3 .button {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .multiplication.mult-5 {
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .multiplication.mult-3 .button {
+    bottom: -20px;
+  }
+  .link-img {
+    display: block;
+    position: absolute;
+    bottom: 77vw;
+    right: 0;
+    cursor: pointer;
+    /* max-width: 417px; */
+    width: 100%;
+    max-height: 240px;
+    height: 40vw;
+  }
+}

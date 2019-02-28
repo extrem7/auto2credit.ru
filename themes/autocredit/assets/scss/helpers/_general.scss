@@ -1,0 +1,173 @@
+.title {
+  color: $blue-lighten;
+  font-size: 2.938rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.title-indent {
+  margin-bottom: rem(55px);
+}
+
+.sub-title {
+  font-size: 1.125rem;
+  color: $blue-lighten;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.second-title {
+  font-weight: 600;
+  font-size: 1rem;
+  color: $blue-lighten;
+  line-height: 1.2;
+}
+
+.big-size {
+  font-size: 2rem;
+}
+
+.medium-size {
+  font-size: 1.5rem;
+}
+
+.medium-weight {
+  font-weight: 500;
+}
+
+.black-span {
+  span {
+    font-weight: 900;
+  }
+}
+
+.text-muted {
+  color: #b2b2b2!important;
+}
+
+.video {
+  iframe {
+    width: 100%;
+    height: 415px;
+  }
+}
+.pagination {
+  span,
+  a {
+    font-weight: 500;
+    color: $blue-lighten;
+    font-size: 1.125rem;
+    padding: 0 0.5rem;
+  }
+  .current {
+    font-weight: 900;
+  }
+}
+.breadcrumb {
+  padding: 1rem 0 0 0;
+  background-color: transparent;
+  a {
+    color: $blue-lighten;
+    &:hover {
+      color: $yellow;
+    }
+  }
+}
+.content.page404 {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 0;
+}
+.page-error {
+  margin: 0 auto;
+  padding: 4rem 0 0 0;
+  background: url('../img/4044.svg') no-repeat center;
+  width: 621px;
+  height: 567px;
+  background-size: cover;
+  .button {
+    max-width: 254px;
+    width: 100%;
+  }
+  .title {
+    font-size: 6.625rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+    span {
+      display: block;
+      font-size: 2.75rem;
+    }
+  }
+}
+@media (max-width: 992px) {
+  .page-error {
+    width: 570px;
+    height: 520px;
+    .title {
+      font-size: 3rem;
+      span {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .video {
+    margin-top: 1rem;
+    iframe {
+      width: 100%;
+      height: 315px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .video {
+    margin-top: 1rem;
+    iframe {
+      width: 100%;
+      height: 315px;
+    }
+  }
+
+  .title-indent {
+    margin-bottom: 1.2rem;
+  }
+
+  .content {
+    padding: 1rem 0;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .medium-size {
+    font-size: 1.1rem;
+  }
+
+  .big-size {
+    font-size: 1.2rem;
+  }
+
+  .politics-page {
+    .title {
+      font-size: 1rem;
+      word-break: break-word;
+    }
+    h2,h3,h4 {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .page-error {
+    width: 430px;
+    height: 390px;
+    padding: 1rem 0 0 0;
+  }
+}
+@media (max-width: 576px) {
+  .label {
+    font-size: 0.8rem;
+  }
+}

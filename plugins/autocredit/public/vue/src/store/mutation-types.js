@@ -1,0 +1,6 @@
+export const EXBICO = 'EXBICO'
+export const ACCEPTED = 'ACCEPTED'
+export const DENIED = 'DENIED'
+export const LIMIT = 'LIMIT'
+export const VALIDATION = 'VALIDATION'
+export const SUCCESS = 'SUCCESS'

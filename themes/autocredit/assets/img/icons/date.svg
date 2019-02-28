@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #33c;
+      }
+    </style>
+  </defs>
+  <title>date</title>
+  <g id="Слой_2" data-name="Слой 2">
+    <g id="Режим_изоляции" data-name="Режим изоляции">
+      <g>
+        <rect class="cls-1" y="3" width="19" height="4"/>
+        <rect class="cls-1" x="5" width="2" height="5"/>
+        <rect class="cls-1" x="12" width="2" height="5"/>
+        <path class="cls-1" d="M0,9V21H19V9ZM17,19H13V15h4Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

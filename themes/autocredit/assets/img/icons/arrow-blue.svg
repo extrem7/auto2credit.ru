@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69.844" height="46" viewBox="0 0 69.844 46">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #3549c2;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#354082"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_1_стрелка" data-name="1 стрелка" class="cls-1">
+    <image id="baseline-keyboard_arrow_down-24px_копия" data-name="baseline-keyboard_arrow_down-24px копия" x="41.844" width="28" height="46" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAuBAMAAADJkWQBAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAJ1BMVEU1ScKAgIA1ScI1ScI1ScI1ScI1ScI1ScI1ScI1ScI1ScI1ScIAAACqOqAZAAAAC3RSTlMAAAFQl4iLN/F/SMSla5oAAAABYktHRAyBs1FjAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH4wEODxs0AmXlHQAAAJxJREFUKM91ksENAjEMBFcnISR+1MB1c5/jTQk0QA+UQB283By5iwOelchvNJET2yvpou2c9yNNy1pxjnfBaYlYfzhH7Drx3nDTiY/oOvH47HpUTj0w9cDUX+z6OrBqUYta1KIWtahFLWpRi/oP2mWWsof4DfskW7AG2b4Nh6OzwXLsthSuzBZq634xDAdGRTcEqekas6YRQp1KRD+wVqmUd32WiwAAAABJRU5ErkJggg=="/>
+    <ellipse id="Эллипс_2" data-name="Эллипс 2" class="cls-2" cx="39.688" cy="22.578" rx="3.844" ry="3.828"/>
+    <ellipse id="Эллипс_2_копия" data-name="Эллипс 2 копия" class="cls-2" cx="27.735" cy="22.578" rx="3.828" ry="3.828"/>
+    <ellipse id="Эллипс_2_копия_2" data-name="Эллипс 2 копия 2" class="cls-2" cx="15.781" cy="22.578" rx="3.843" ry="3.828"/>
+    <ellipse id="Эллипс_2_копия_3" data-name="Эллипс 2 копия 3" class="cls-2" cx="3.844" cy="22.578" rx="3.844" ry="3.828"/>
+  </g>
+</svg>
